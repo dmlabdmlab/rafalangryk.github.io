@@ -8,85 +8,67 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Your Name / Site Title"
+site_theme               : "air" # Currently available options are "default", "air"
+title                    : "AI for Space Weather"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+name                     : "Rafal Angryk"
+description              : "Results-driven computer scientist and interdisciplinary research leader"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://www.rafalangryk.com # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "rafalangryk/rafalangryk.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  avatar           : "profile_300.png"
+  name             : "Rafal Angryk, Ph.D."
+  pronouns         :
+  bio              : "Distinguished University Professor & 2CI Professor of Computer Science"
+  location         : "Atlanta, GA"
+  location_url     : "https://discoveratlanta.com/"
+  employer         : "Georgia State Univ."
+  employer_url     : "https://www.gsu.edu/"
+  department_name  : "Computer Science"
+  department_url   : "https://csds.gsu.edu/"
 
-  # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  inspire-hep      : # URL
-  impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
 
-  # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  # Academic
+  orcid            : "https://orcid.org/0000-0001-9598-8207"
+  semantic         : "https://www.semanticscholar.org/author/R.-Angryk/2366455"
+  googlescholar    : "https://scholar.google.com/citations?user=Phw2RfEAAAAJ&hl=en"
+  dblp             : "25/2162"
+  #academia        :
+  #arxiv           :
+  #researchgate    :
+  #pubmed          :
+  #scopus          :
+
+  # Repositories
+  #github          :
+  #bitbucket       :
+  #kaggle          :
+  #stackoverflow   :
 
   # Social media
-  artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
-  linkedin         : # Username
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : # Username for X / Twitter
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
+  linkedin         : "rafal-angryk-15171924"
+  #bluesky         :
+  #twitter         :
+  #instagram       :
+  #facebook        :
+  #youtube         :
+  #mastodon        :
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
-    title: 'Books'
+    title: 'Scholarly Monograph'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles & Book Chapters'
   conferences:
-    title: 'Conference Papers'
+    title: 'Refereed Conference & Workshop Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -148,7 +130,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-
+  - "https://dblp.org/pid/25/2162" # optional, for SEO only
 
 # Analytics
 analytics:
@@ -268,8 +250,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _portfolio
   - scope:
       path: ""

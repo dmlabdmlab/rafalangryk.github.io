@@ -1,55 +1,84 @@
 /* ==========================================================================
-   Air skin, based on the Minimal Mistakes skin
+   Custom Air Skin (Light Tech Scheme) - FINAL WORKING VERSION
+   This structure includes all required variables to resolve compilation errors.
    ========================================================================== */
 
-/* Color codes used for the theme */
-$primary-color              : #0092ca;
-$dark-primary-color         : mix(#000, $primary-color, 40%);
-$darker-primary-color       : mix(#000, $primary-color, 60%);
-$light-primary-color        : mix(#000, $primary-color, 50%);
-
-$background                 : #eeeeee;
-$background-light           : mix(#fff, $background, 20%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #222831;
-$link                       : #393e46;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
-$footer                     : $primary-color;
-
-/* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
-$notice-color               : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-
-/* Other basic settings for the template */
+/* 1. STRUCTURAL AND UTILITY VARIABLES (MUST BE DEFINED FIRST) */
+// Structural Variables (Fixes the $masthead-height error)
 $border-radius              : 4px;
 $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $global-transition          : all 0.2s ease-in-out;
-$masthead-height            : 70px;
+$masthead-height            : 70px; 
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dark theme for the site */
+// Utility Site Colors (Fixes $warning-color and other utility errors)
+$danger-color               : #ee5f5b;
+$info-color                 : #2f7f93;
+$notice-color               : #7a8288;
+$success-color              : #62c462;
+$warning-color              : #f89406; 
+
+/* 2. CUSTOM COLOR DEFINITIONS (Based on your chosen palette) */
+$custom-background          : #F7F9FB;    // Very Light/Off-White Background
+$custom-text                : #212A31;    // Deep Charcoal (Highest contrast)
+$custom-link                : #124E66;    // Strong Blue/Teal (Primary Link Color)
+$custom-primary-accent      : #31708E;    // Dark Teal (Buttons/Hover)
+$custom-muted               : #748D92;    // Muted Accent/Light Border
+$custom-code-bg             : #ECECEC;    // Light gray background for code blocks
+$custom-footer-bar          : #2E3944;    // Dark slate for a strong, stable footer bar
+$custom-masthead-color      : #5085A5;    // Sky Blue for Navigation
+
+/* 3. CORE THEME COLOR CALCULATIONS (Guaranteed to compile cleanly) */
+$primary-color              : $custom-primary-accent; // Dark Teal
+$dark-primary-color         : mix(#000, $custom-primary-accent, 15%);
+$darker-primary-color       : mix(#000, $custom-primary-accent, 30%);
+$light-primary-color        : $custom-muted;
+
+// Site Base Colors
+$background                 : $custom-background;
+$background-light           : mix(#fff, $background, 8%);
+$background-lighter         : mix(#fff, $background, 90%);
+$text                       : $custom-text;
+$link                       : $custom-link;
+$link-dark                  : $custom-primary-accent; 
+$link-light                 : mix($custom-text, $link, 30%);
+$footer                     : $custom-footer-bar;
+
+/* 4. Modern CSS variables (The final visual mapping) */
 :root {
-    --global-base-color                 : #{$background};
-    --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$footer};
-    --global-border-color               : #{$light-primary-color};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-primary-color};
-    --global-fig-caption-color          : #{$light-primary-color};
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$link};
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #{$light-primary-color};
-    --global-thead-color                : #{$background-lighter};
+    --global-base-color             : #{$background};
+    --global-bg-color               : #{$background};
+    --global-footer-bg-color        : #{$footer};
+    --global-border-color           : #{$custom-muted}; 
+    --global-dark-border-color      : #{$background-light};
+    --global-code-background-color  : #{$custom-code-bg};
+    --global-code-text-color        : #{$text};
+    --global-fig-caption-color      : #{$text};
+    --global-link-color             : #{$link};
+    --global-link-color-hover       : #{$link-dark};
+    --global-link-color-visited     : #{$link-light};
+    --global-masthead-link-color    : #{$custom-masthead-color};
+    --global-masthead-link-color-hover: #{$link-dark};
+    --global-text-color             : #{$text};
+    --global-text-color-light       : #{$light-primary-color};
+    --global-thead-color            : #{$background-lighter};
+}
+/* --- FIX: MOBILE HAMBURGER MENU VISIBILITY --- */
+/* This targets the menu toggle button itself. */
+.navbar-toggler {
+    /* Use a strong dark color from your palette for the background */
+    background-color: #212A31 !important; 
+
+    /* Ensure the border is dark for visibility */
+    border-color: #212A31 !important;
+
+    /* Since the bars themselves are white in dark mode, this background makes them visible. */
+}
+
+/* Additional Fix for the bars themselves (optional, but ensures they are light if theme breaks) */
+.navbar-toggler .icon-bar {
+    background-color: #F7F9FB !important; /* Forces the bars to be white/light */
 }

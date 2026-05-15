@@ -41,3 +41,52 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+.author__urls li {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  flex-wrap: nowrap;
+}
+
+.author__urls li i,
+.author__urls li svg {
+  flex-shrink: 0;
+}
+
+/* Publications list spacing */
+.list__item .archive__item {
+  margin-bottom: 1em;
+}
+
+.list__item .archive__item-title {
+  margin-top: 0.3em;
+  margin-bottom: 0.1em;
+}
+
+.list__item .archive__item .page__meta {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  line-height: 1.4;
+}
+
+.list__item details {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.list__item details + p {
+  margin-top: 0.2em;
+}
+
+.archive__item-title a,
+.archive__item-title a:hover {
+  text-decoration: none;
+  cursor: default;
+  color: inherit;
+  pointer-events: none;
+}
+
+.list__item .archive__item-title {
+  font-size: 1em;
+  font-weight: bold;
+}

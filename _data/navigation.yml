@@ -1,33 +1,54 @@
-# The following is the order of the links in the header of the website.
-#
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-#
-# NOTE that only one of the CV options should be selected, the first is for the
-#      Markdown formatted page while the second is generated using JSON.
-
+# Final Menu Structure: Optimized for Executive and Recruitment Goals
 main:
-  - title: "Publications"
-    url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
+# 1. DMLab (External Link)
+- title: "DMLab"
+  url: "https://dmlab.cs.gsu.edu/" 
+  external: true
+  side: right
+# 2. RESEARCH & INNOVATION (Dropdown)
+- title: "Research & Innovation"
+  url: "/research-areas/" 
+  has_children: true
+  side: right
+  children:
+    - title: "Publications"
+      url: "/publications/"
+    - title: "Grants & Contracts"
+      url: "/grants-funding/"
+    - title: "Open Software"
+      url: "/open-software/"
+    - title: "Open Data"
+      url: "/open-data/"
+# 3. TEACHING & MENTORSHIP (Dropdown)
+- title: "Teaching & Mentorship"
+  url: "/teaching/"
+  has_children: true
+  side: right
+  children:
+    - title: "Courses"
+      url: "/courses/"
+    - title: "Students"
+      url: "/current-students/"
+    - title: "Faculty Mentorship"
+      url: "/faculty-mentorship/"
+    - title: "Join Us (Recruiting PDF)"
+      url: "/assets/pdf/student-recruitment.pdf"
+      external: true
+# 4. LEADERSHIP
+- title: "Leadership"
+  url: "/leadership/"
+  has_children: true
+  side: right
+  children:
+    - title: "BDML Program"
+      url: "/bdml-program/"
+# 5. ABOUT
+- title: "About"
+  url: "/about/"
+  has_children: true
+  side: right
+  children:
+    - title: "Bio"
+      url: "/about-full/"
+    - title: "Contact"
+      url: "/contact/"

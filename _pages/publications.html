@@ -4,23 +4,30 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>
+  The list below includes a representative selection of 200+ peer-reviewed research works 
+  spanning a scholarly monograph, journal articles, book chapters, and refereed conference 
+  & workshop papers. For a complete publication record, please refer to 
+  <a href="{{ site.author.googlescholar }}">Google Scholar</a>, 
+  <a href="https://dblp.org/pid/25/2162.html">DBLP</a>, or 
+  <a href="https://orcid.org/0000-0001-9598-8207">ORCID</a>.
+</p>
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
+    {% assign cat_count = 0 %}
     {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
+      {% if post.category == category[0] %}
+        {% assign cat_count = cat_count | plus: 1 %}
       {% endif %}
+    {% endfor %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}{% continue %}{% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2>{{ category[1].title }} <span style="font-size:0.7em; color:#888;">({{ cat_count }})</span></h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
@@ -31,6 +38,3 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-
