@@ -32,11 +32,11 @@ most common questions are answered there.
 
 ## Mailing Address
 
-**Dr. Rafal A. Angryk**
-Department of Computer Science
-Georgia State University
-P.O. Box 5060
-Atlanta, GA 30302-5060
+**Dr. Rafal A. Angryk**  
+Department of Computer Science  
+Georgia State University  
+P.O. Box 5060  
+Atlanta, GA 30302-5060  
 
 ---
 
@@ -49,3 +49,6 @@ For publications, citation metrics, and research output see:
 - [ORCID](https://orcid.org/0000-0001-9598-8207)
 - [Semantic Scholar](https://www.semanticscholar.org/author/R.-Angryk/2366455)
 - [DMLab](https://dmlab.cs.gsu.edu/)
+
+
+

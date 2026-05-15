@@ -94,19 +94,92 @@ After completing the BDML concentration, graduates will be able to:
 
 ---
 
+## Curriculum
+
+### Required Courses
+
+**Semester 1 — Foundation (4 courses, 12 credit hours)**
+
+| Course | Title | Credits |
+|---|---|---|
+| CSC 6780 | Fundamentals of Data Science | 4 |
+| CSC 6710 | Database Systems | 4 |
+| MATH 6751 | Mathematical Statistics I | 3 |
+| CSC 8902 | Ethics for Data Science | 1 |
+
+**Semester 2 — Core (4 courses, 15 credit hours)**
+
+| Course | Title | Credits |
+|---|---|---|
+| CSC 6760 | Big Data Programming | 4 |
+| CSC 6740 | Data Mining | 4 |
+| MATH 6752 | Mathematical Statistics II | 3 |
+| CSC 6850 | Machine Learning | 4 |
+
+### Electives (Choose 2 courses, 6–8 credit hours)
+
+| CS Electives (4 cr each) | Statistics Electives (3 cr each) |
+|---|---|
+| CSC 8851 — Deep Learning | STAT 8090 — Applied Multivariate Statistics |
+| CSC 8852 — Advanced Topics of Deep Learning | STAT 8561 — Linear Statistical Analysis I |
+| CSC 8850 — Advanced Machine Learning | STAT 8610 — Time Series Analysis |
+| CSC 8740 — Advanced Data Mining | STAT 8674 — Monte Carlo Methods |
+| CSC 8741 — Graph Mining | |
+| CSC 8230 — Secure and Private Artificial Intelligence | |
+| CSC 8530 — Parallel Algorithms | |
+| CSC 8810 — Computational Intelligence | |
+| CSC 8713 — Spatial and Scientific Databases | |
+| CSC 8712 — Advanced Database Systems | |
+| CSC 8711 — Databases and the Web | |
+| CSC 8710 — Deductive Databases and Logic Programming | |
+
+### Capstone & Internship
+
+- **DSCI 8930 — Capstone Project (1–4 credits):** Full data science project following 
+  CRISP-DM, SEMMA, or KDD methodology. Includes oral final examination. Required for graduation.
+- **DSCI 8940 — Data Science Internship (1 credit, optional):** Available after core 
+  coursework is complete. Strongly recommended — start searching early!
+
+---
+
+## Your Semester-by-Semester Journey
+<pre>
+SEM. 1 — Fall (4 courses, 12 cr.)       SEM. 2 — Spring (4 courses, 15 cr.)
+──────────────────────────────────      ──────────────────────────────────
+CSC 6780  Fundamentals of DS            CSC 6760  Big Data Programming
+CSC 6710  Database Systems              CSC 6740  Data Mining
+MATH 6751 Math Statistics I             MATH 6752 Math Statistics II
+CSC 8902  Ethics for Data Science       CSC 6850  Machine Learning
+
+SUMMER — Internship (optional)          SEM. 3 — Fall (3 courses, 7–9 cr.)
+──────────────────────────────────      ──────────────────────────────────
+DSCI 8940 Internship (1 cr)             2 Electives (Deep Learning,
+Start searching in early Spring!        Adv. ML, Graph Mining, etc.)
+                                        DSCI 8930  Capstone Project
+</pre>
+---
+
 ## Admission Requirements
 
 In addition to general College of Arts and Sciences requirements, applicants are 
 expected to demonstrate a strong academic record (minimum GPA 3.0). While many of 
 our students come from computer science, engineering, mathematics, or statistics 
-backgrounds, we actively welcome applicants from diverse disciplines — chemistry, 
-physics, economics, social sciences, geography and beyond. Interdisciplinary interests and 
-backgrounds are encouraged; the versatility of perspectives is what makes data 
-science teams stronger.
+backgrounds, we actively welcome applicants from diverse disciplines — biology, 
+chemistry, physics, economics, social sciences, geography, and beyond. 
+Interdisciplinary interests and backgrounds are encouraged; **the versatility of 
+perspectives is what makes data science teams stronger**.
+
+All applicants should have foundational experience in:
+- Programming and data structures
+- Linear algebra
+- Probability and statistics
+
+**Students who lack some of these prerequisites may be admitted conditionally and 
+complete them as deficiency courses prior to or alongside their first semester.**
 
 For complete and current admission requirements and to apply, visit the official
 [GSU BDML program page](https://www.gsu.edu/program/data-science-and-analytics-ms-big-data-and-machine-learning/)
-or the [official GSU catalog](https://catalogs.gsu.edu/preview_program.php?catoid=43&poid=12679).
+or the [official GSU catalog](https://catalogs.gsu.edu/preview_program.php?catoid=43&poid=12679&utm_source=ppcatalog&utm_medium=cas&utm_content=ms&utm_campaign=program_explorer).
 
 ---
 
@@ -126,7 +199,6 @@ or the [official GSU catalog](https://catalogs.gsu.edu/preview_program.php?catoi
 - [GSU BDML program page & admissions](https://www.gsu.edu/program/data-science-and-analytics-ms-big-data-and-machine-learning/)
 - [Official GSU catalog — curriculum details](https://catalogs.gsu.edu/preview_program.php?catoid=43&poid=12679&utm_source=ppcatalog&utm_medium=cas&utm_content=ms&utm_campaign=program_explorer)
 - [Direct Admit application portal](https://gradapply.gsu.edu/portal/directad_app)
-- [Prospective students — Join Us](/assets/pdf/student-recruitment.pdf)
 
 ---
 
@@ -149,3 +221,6 @@ against the <a href="https://catalogs.gsu.edu/preview_program.php?catoid=43&poid
 Georgia State University is not responsible for any information presented on this 
 personal page.
 </div>
+
+
+

@@ -104,3 +104,6 @@ as part of early instructor and visiting faculty positions.
 
 *For current course offerings and schedules, see the 
 [GSU Computer Science course catalog](https://csds.gsu.edu/course-descriptions-schedule/).*
+
+
+

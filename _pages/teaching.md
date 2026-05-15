@@ -26,7 +26,7 @@ as **PhD Program Director** in the Department of Computer Science at Montana Sta
 - [**Courses**](/courses/) — Graduate and undergraduate courses taught at GSU and MSU, 
   including Ethics for Data Science, Advanced Data Mining, and Spatial & Scientific Databases
 - [**Students**](/current-students/) — Current and former PhD and M.S. students supervised 
-  as Committee Chair, including 8 doctoral graduates now in academic, research, and executive positions
+  as Committee Chair, including 11 doctoral graduates now in academic, research, and executive positions
 - [**Faculty Mentorship**](/faculty-mentorship/) — Cross-disciplinary mentoring of junior 
   faculty across Computer Science, Physics & Astronomy, and Mathematics & Statistics at GSU
 - [**BDML Program**](/bdml-program/) — Big Data & Machine Learning concentration details, 
@@ -42,3 +42,5 @@ as **PhD Program Director** in the Department of Computer Science at Montana Sta
 | 📚 **MS students supervised** | 40+ M.S. projects and theses as Chair |
 | 🏛️ **GSU Faculty mentored** | 6 junior faculty across 3 departments (NSF FDSS, GSU LAUNCH & ADVANCE-IMPACT) |
 | ⏱️ **Teaching experience** | 20+ years across 4 universities on 3 continents |
+
+

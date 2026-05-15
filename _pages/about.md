@@ -5,7 +5,7 @@ permalink: /about/
 author_profile: true
 ---
 
-Dr. Rafal A. Angryk is a **Distinguished University Professor** and **2CI Professor of Computer Science** at Georgia State University. Before joining GSU, he was a faculty member at **Montana State University**, where he began his **long-standing collaboration with the heliophysics community** — a partnership that has defined much of his subsequent research agenda. He has been at GSU for over 13 years, directing the **Data Mining Lab (DMLab)** and building an interdisciplinary research program at the intersection of machine learning and scientific discovery.
+Dr. Rafal A. Angryk is a **Distinguished University Professor** and **2CI (Second Century Initiative) Professor of Computer Science** at Georgia State University. Before joining GSU, he was a faculty member at **Montana State University**, where he began his **long-standing collaboration with the heliophysics community** — a partnership that has defined much of his subsequent research agenda. He has been at GSU for over 13 years, directing the **Data Mining Lab (DMLab)** and building an interdisciplinary research program at the intersection of machine learning and scientific discovery.
 
 His work sits at the intersection of **intelligent systems**, **big data analysis**, and **scientific discovery** — developing AI-driven tools that tackle high-stakes, rare-event prediction problems in domains where failure carries real consequences.
 
@@ -15,11 +15,7 @@ His work sits at the intersection of **intelligent systems**, **big data analysi
 
 Dr. Angryk's research sits at the frontier of **Artificial Intelligence and Machine Learning**, with a primary application domain in **data-driven space weather forecasting**. His group designs and deploys advanced AI models — spanning deep learning, neural operators, and large-scale spatiotemporal analysis — for predicting high-impact rare events including solar flares, coronal mass ejections (CMEs), and solar energetic particle (SEP) events. These phenomena can severely disrupt satellites, power grids, and communication infrastructure, making reliable AI-based forecasting a critical scientific and societal challenge.
 
-Beyond space weather, his work advances the broader methodology of **AI for science** — developing open-source machine learning toolkits, AI-ready benchmark datasets, and surrogate modeling frameworks that accelerate scientific simulation across physics domains. This research is supported by sustained federal funding from **NASA** and **NSF**, as well as past industry partnerships, totaling over **$15M in grants and contracts** across his career.
-
-<!-- OLD VERSION
-Dr. Angryk's primary research domain is **data-driven space weather forecasting**. His group develops machine learning models for predicting solar flares, coronal mass ejections (CMEs), and solar energetic particle (SEP) events — phenomena that can disrupt satellites, power grids, and communication infrastructure. This work is supported by sustained federal funding from **NASA** and **NSF**, as well as past industry partnerships, totaling over **$18M in grants and contracts** across his career.
-END OLD VERSION -->
+Beyond space weather, his work advances the broader methodology of **AI for science** — developing open-source machine learning toolkits, AI-ready benchmark datasets, and surrogate modeling frameworks that accelerate scientific simulation across physics domains. This research is supported by sustained federal funding from **NASA** and **NSF**, as well as past industry partnerships, totaling over **$18M in grants and contracts** across his career.
 
 His research contributions span:
 - **Rare event prediction** using imbalanced and spatiotemporal datasets
@@ -53,3 +49,6 @@ Dr. Angryk received his training in Europe before joining GSU's faculty, and has
 | Program leadership & academic service | [Leadership](/leadership/) |
 | Full bio | [Bio](/about-full/) |
 | Get in touch | [Contact](/contact/) |
+
+
+

@@ -65,15 +65,18 @@ Over 20+ years and 40+ supervised M.S. students across Georgia State University 
 | [Sajitha Naduvil-Vadukootu](https://www.linkedin.com/in/sajitha-nv/) | 2017 | GSU | Lead Software Engineer, Equifax |
 | [Thaddeus Gholston](https://www.linkedin.com/in/thaddeusgholston/) | 2015 | GSU | Data Architect, Influence Health |
 | [Atanu Roy](https://www.linkedin.com/in/atanuroy18/) | 2011 | MSU | Data Scientist, Ancestry.com |
+| [Chandrima Sarkar](https://www.linkedin.com/in/chandrima-sarkar-a0960314/) | 2011 | MSU | Data Scientist, Walmart Labs |
 | [Li Wei Sun](https://www.linkedin.com/in/liweisun/) | 2010 | MSU | Sr. Principal Performance Engineer, Palo Alto Networks |
 | [Richard McAllister](https://www.linkedin.com/in/rance-harmon/) | 2009 | MSU | VP & CIO, Orbital Micro Systems |
 | [Levi D. Junkert](https://www.linkedin.com/in/levijunkert/) | 2009 | MSU | Sr. Principal Engineer, Lila Sciences |
-| [M. Shahriar Hossain](https://www.linkedin.com/in/maheshhingane/) | 2008 | MSU | Interim Chair & Professor, UT El Paso |
-| [Robert Lamb](https://www.linkedin.com/in/robbie-lamb-647b7913/) | 2008 | MSU | Software Development Manager, Workiva |
-| [Monika Akbar](https://www.linkedin.com/in/) | 2008 | MSU | Associate Professor, UT El Paso |
+| [M. Shahriar Hossain](https://www.linkedin.com/in/shahriar/) | 2008 | MSU | Interim Chair & Professor, UT El Paso |
+| [Monika Akbar](https://www.linkedin.com/in/monika-akbar-69bba68/) | 2008 | MSU | Associate Professor, UT El Paso |
 | [David Lopez](https://www.linkedin.com/in/davidjlopezboise/) | 2007 | MSU | Software Engineer, Hewlett-Packard |
+| [Robert Lamb](https://www.linkedin.com/in/robbie-lamb-647b7913/) | 2008 | MSU | Software Development Manager, Workiva |
 
 ---
 
 *For a complete list of all DMLab students and alumni, visit 
 [sites.google.com/view/dmlab/team](https://sites.google.com/view/dmlab/team).*
+
+

@@ -9,7 +9,7 @@ author_profile: true
 *~200 words for broader use*
 
 Rafal A. Angryk is a Distinguished University Professor and 2CI Professor of 
-Computer Science at Georgia State University (GSU), where he founded and directs 
+Computer Science at Georgia State University (GSU), where he am the founding director ofs 
 the Data Mining Lab (DMLab) — an interdisciplinary AI research group with sustained 
 federal funding from NASA, NSF, and industry. His research sits at the intersection 
 of artificial intelligence and scientific discovery, with a particular focus on 
@@ -54,7 +54,7 @@ Beyond space weather, his work advances the broader methodology of AI for scienc
 and surrogate modeling frameworks that accelerate scientific simulation across 
 physics domains. His research is supported by sustained federal funding from NASA 
 and NSF, as well as past industry partnerships, totaling over $18M in grants and 
-contracts across 19 awards on which he served as PI or Institutional-PI.
+contracts across 20+ awards on which he served as PI or Institutional-PI.
 
 His primary research contributions span rare-event prediction using imbalanced and 
 spatiotemporal datasets, open-source AI cyberinfrastructure (MVTS-Data Toolkit, 
@@ -113,3 +113,6 @@ the Polish Academy of Sciences. He joined the U.S. academic system in 2004 as a
 faculty member at Montana State University, and held a visiting faculty position at 
 Al Akhawayn University in Morocco during that period. He is a native Polish speaker 
 and maintains active international research collaborations.
+
+
+
